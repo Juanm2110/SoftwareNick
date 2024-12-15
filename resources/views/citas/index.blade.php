@@ -50,7 +50,7 @@
                             <form action="{{ route('citas.destroy', $cita->id) }}" method="POST" style="display:inline;">
                                 @csrf
                                 @method('DELETE')
-                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('¿Estás seguro?')">
+                                <button type="submit" class="btn btn-danger btn-sm" >
                                     <i class="fas fa-trash-alt"></i> Eliminar
                                 </button>
                             </form>
